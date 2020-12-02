@@ -1,6 +1,6 @@
 # gradle-version-bumper
 
-While writing [this article](https://kidonpoint.com/2019/03/05/Continuous-Integration-And-Deployment-For-Android-Apps-Tutorial.html) I needed to write a small bash script that bumps an Android app's version number in the following way:
+While writing [this article](https://granot.dev/continuous-integration-deployment-for-android-using-circleci-top-to-bottom-tutorial/) I needed to write a small bash script that bumps an Android app's version number in the following way:
 
 If `version=XXX.YYY.ZZZ`, do `version=XXX.(YYY + 1).(ZZZ + 20)`
 
